@@ -1,0 +1,28 @@
+.tab{
+	line-height:38px;
+	
+	strong{
+		display:block;
+		padding-left:7px;
+		line-height:20px;
+		font-size:15px;
+		color:#333;
+	}
+	ul{
+		width:95%;
+		li{
+			padding-left:10px;
+			width:100%;
+			a{
+				font-size:14px;
+				color:#333;
+			}	
+			&:hover{
+				background:#333;
+			}
+			&:hover a{
+				color:#fff;
+			}	
+		}
+	}
+}
